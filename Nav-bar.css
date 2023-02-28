@@ -1,0 +1,158 @@
+@media screen and (min-width:840px) {
+
+}
+
+@media (max-width:835px) {
+  .store-text, .mac-text, .ipad-text, .iphone-navtext, .watch-text, .Airpods-text, .tv-text, .entertainment-text, .accessories-text, .support-text{
+    display: none;
+  }
+
+  .apple-logo{
+    display: flex;
+    position: fixed;
+    left: -30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 30px;
+    width: 30px;
+  }
+
+  .nav-logo{
+    
+    color: white;
+  }
+
+   .bag-button{
+    position: fixed;
+    right:0px;
+  }
+
+  .search-button{
+    position: fixed;
+    right: 70px;
+  }
+
+  
+  
+
+
+
+  
+}
+
+.navigation-bar{
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+.global-navbar{
+  background-color: black;
+  display:flex;
+  flex-direction: row;
+  height: 45px;
+  opacity: 0.75;
+  align-items: center;
+  justify-content: center;
+  font-family: SF Pro Display, sans-serif;
+  font-weight: lighter;
+  font-size: 11.5px;
+
+}
+
+.global-navbar a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-logo{
+  height: 50%;
+  width: 45%;
+  opacity: 1;
+  margin: 0;
+  padding-top: 7px;
+  
+
+}
+
+.apple-logo{
+  padding-left: 45px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 30px;
+  height: 30px;
+  
+}
+
+.store-text{
+  color:white;
+  padding:20px;
+  opacity: 1;
+}
+
+.mac-text{
+  padding:20px;
+  
+}
+
+.ipad-navtext{
+  padding:20px;
+}
+
+.iphone-navtext{
+  padding:20px;
+}
+
+.watch-text{
+  padding:20px;
+ 
+}
+
+.Airpods-text{
+  padding:20px;
+
+}
+
+.tv-text{
+  
+  padding:20px;
+}
+
+.entertainment-text{
+  padding:20px;
+
+}
+
+.accessories-text{
+  padding:20px;
+
+}
+
+.support-text{
+  padding:20px;
+
+}
+
+.bag-button{
+  padding:30px;
+  width: 30px;
+
+}
+
+.bag-icon{
+  width: 55%;
+
+}
+
+.search-icon{
+  width: 56%;
+}
+
+
+.search-button{
+  padding:20px;
+  padding-right: 0px;
+  margin-right: -10px;
+  width: 30px;
+}

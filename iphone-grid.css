@@ -1,0 +1,270 @@
+.grid, .gridd, .griddd{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+a{
+  text-decoration: none;
+  color: rgb(26, 137, 255);
+}
+
+
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6 {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  background-color: rgb(252, 252, 252);
+  height: 630px;
+  width: 800px;
+  flex:1;
+  max-width: 1200px;
+  max-height: 540px;
+  border-style: solid;
+  border-color: white;
+  appearance: ratio 16px / 9px;
+  color: white;
+  font-family: SF Pro Display, sans-serif;
+}
+
+.photo-1, .photo-2, .photo-3, .photo-4, .photo-5, .photo-6 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+.photo-5{
+  object-fit: cover;
+}
+
+.grid-1, .grid-2, .grid-3{
+  background-color: black;
+}
+
+.grid-1, .grid-3, .grid-5{
+  border-left: 10px;
+  border-right: 7px;
+  border-style: solid;
+  
+}
+
+.grid-2, .grid-4, .grid-6{
+  border-right: 10px;
+  border-style: solid;
+
+}
+
+
+.watch-content, .pod-content, .wrist-contnet, .wrist-content, .ipad-content, .macbook-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.watch{
+  position:absolute;
+  top: 50px;
+}
+
+.iwatch-text {
+  position:absolute;
+  font-weight: 600;
+  top: 92px;
+}
+
+.grid-buy1{
+  position:absolute;
+  font-weight: 200;
+  font-size: small;
+  top: 145px;
+  margin-left: 100px;
+  color: rgb(26, 137, 255);
+}
+
+.grid-learn1{
+  position: absolute;
+  font-weight: 200;
+  font-size: small;
+  top: 145px;
+  margin-right: 70px;
+  color: rgb(26, 137, 255);
+}
+
+.grid-buy1:hover, .grid-learn1:hover, .grid-buy2:hover, .grid-learn2:hover, .grid-buy3:hover, .grid-learn3:hover,
+.grid-buy4:hover, .grid-learn4:hover, .grid-buy5:hover, .grid-learn5:hover, .grid-buy6:hover, .grid-learn6:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+
+
+.pod{
+  position: absolute;
+  top: 15px;
+  font-size: 37px;
+  font-weight: 700;
+}
+
+
+.pod-text{
+  position: absolute;
+  top: 83px;
+}
+
+.grid-buy2{
+  position:absolute;
+  font-weight: 200;
+  font-size: small;
+  top: 135px;
+  margin-left: 100px;
+  color: rgb(26, 137, 255);
+}
+
+.grid-learn2{
+  position: absolute;
+  font-weight: 200;
+  font-size: small;
+  top: 135px;
+  margin-right: 70px;
+  color: rgb(26, 137, 255);
+}
+
+
+.wrist-text{
+  position:absolute;
+  top: 150px;
+
+}
+
+.wrist{
+  position:absolute;
+  top:0px;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.grid-buy3{
+  position: absolute;
+  font-weight: 200;
+  font-size: small;
+  top: 225px;
+  margin-left: 70px;
+  color: rgb(26, 137, 255);
+
+}
+
+
+.grid-learn3{
+  position:absolute;
+  font-weight: 200;
+  font-size: small;
+  top: 225px;
+  margin-right: 100px;
+  color: rgb(26, 137, 255);
+}
+
+.ipad{
+  position: absolute;
+  top:0px;
+  font-size: 45px;
+  font-weight: 500;
+  color: black;
+}
+
+
+
+.ipad-text{
+  position: absolute;
+  color: black;
+  top: 88px;
+
+}
+
+.grid-learn4{
+  position: absolute;
+  font-size: small;
+  top: 145px;
+  margin-right: 100px;
+  color: rgb(26, 137, 255);
+
+}
+
+.grid-buy4{
+  position: absolute;
+  font-size: small;
+  top: 145px;
+  margin-left: 70px;
+  color: rgb(26, 137, 255);
+
+}
+
+.macbook{
+  position: absolute;
+  top: 15px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+
+.macbook-text{
+  position: absolute;
+  top: 93px;
+}
+
+.grid-buy5{
+  position:absolute;
+  font-weight: 200;
+  font-size: small;
+  top: 155px;
+  margin-left: 100px;
+  color: rgb(26, 137, 255);
+}
+
+.grid-learn5{
+  position: absolute;
+  font-weight: 200;
+  font-size: small;
+  top: 155px;
+  margin-right: 70px;
+  color: rgb(26, 137, 255);
+}
+
+
+.card{
+  position: absolute;
+  top: 40px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+
+.card-text{
+  position: absolute;
+  color: black;
+  top: 65px;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.grid-buy6{
+  position:absolute;
+  font-size: small;
+  top: 165px;
+  margin-left: 100px;
+  color: rgb(26, 137, 255);
+}
+
+.grid-learn6{
+  position: absolute;
+  font-size: small;
+  top: 165px;
+  margin-right: 70px;
+  color: rgb(26, 137, 255);
+}
+
+

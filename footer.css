@@ -1,0 +1,29 @@
+.footer-content{
+  width: 1150px;
+  height: 100%;
+  font-size: 13px;
+}
+
+.footer{
+  padding-top: 20px;
+}
+
+button{
+  border: 0px;
+}
+
+.footer-grid  a{
+  text-decoration: none;
+  color: rgb(104, 104, 104);
+}
+
+
+.footer-grid{
+  display: flex;
+}
+
+@media (max-width : 800px){
+  .footer-grid{
+    display: flex;
+  }
+}
